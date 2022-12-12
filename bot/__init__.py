@@ -11,8 +11,8 @@ from subprocess import Popen, run as srun, check_output
 from time import sleep, time
 from threading import Thread, Lock
 from dotenv import load_dotenv
+from pyrogram import enums
 from pyrogram import Client
-from pyrogram import pyrogram_enums
 from asyncio import get_event_loop
 
 main_loop = get_event_loop()
